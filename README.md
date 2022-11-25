@@ -1,16 +1,23 @@
-javascript -tutorial
+<!-- Section 2. Fundamentals
 
-// add css in html 
-<head>
-  <link rel="stylesheet" href="styles.css">
-</head>
-// add in head section of html
+Syntax – explain the JavaScript syntax, including whitespace, statements, identifiers, keywords, expressions, and comments.
 
-//add javascript in html in someway
-<body>
- 
-   <!-- end of page content here-->
-   <script src="js/service.js"></script>
-   <script src="js/app.js"></script>
-</body>
-// end of the body page content let load all css and html in page then execute javascript file
+Variables – show you how to declare variables.
+
+Data types – introduce to you the JavaScript data types, including primitive and reference types.
+
+Number – learn how JavaScript use the Number type to represent the integer and floating-point numbers.
+
+Numeric Separator– show you how to make the numbers more readable by using underscores as numeric separators.
+
+Octal & binary literals – provide support for binary literals and change the way to represent octal literals.
+
+Boolean – introduce you to the Boolean type.
+
+String – learn about string primitive type and some basic string operations.
+
+Object – introduce you to the object type.
+
+Primitive vs. reference values – understand two value types in JavaScript, including primitive and reference values, and the differences between them.
+
+Array – introduce you to the Array type and how to manipulate array elements. -->
