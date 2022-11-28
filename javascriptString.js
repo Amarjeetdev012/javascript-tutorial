@@ -6,6 +6,9 @@
 
 // console.log(message);
 
+//! Creating a new string in javascript
+// const string = new String("A String object");
+// console.log(string) // "A String object"
 
 // let result = `Hi, I'm john`;
 
