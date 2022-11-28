@@ -29,7 +29,7 @@
 // let result = 30 - 10;
 // console.log(result); // 20
 
-//TODO: ==> diiferent behaviour of string addition and Subtraction  
+//TODO: ==> diiferent behaviour of string addition and Subtraction
 // let add = "20" + 10
 // console.log(add) //2010
 
@@ -62,16 +62,43 @@
 //       return 100;
 //     },
 //   };
-  
+
 //   let currentEnergy = energy - 10;
 //   console.log(currentEnergy);
-  
+
 //   currentEnergy = energy + 100;
 //   console.log(currentEnergy);
-  
+
 //   currentEnergy = energy / 2;
 //   console.log(currentEnergy);
-  
+
 //   currentEnergy = energy * 1.5;
 //   console.log(currentEnergy);
-  
+
+// TODO value of in objects // function: valueOf()
+// let data = {
+//     value: 100
+// }
+
+// console.log((data.valueOf().value));
+// let currentEnergy = data.valueOf().value - 10
+// console.log(currentEnergy)
+
+// const box = new Object(123);
+// console.log(box + 456); // 579
+// console.log(box == 123); // true
+
+let data = {
+    apple:120,
+    grapes:646,
+    lichi:78976,
+    mongo:200
+}
+
+console.log(data)
+
+let value = data.apple + 210
+console.log(value)
+
+//! Summary
+// Use the JavaScript arithmetic operators including addition (+), subtraction (-), multiply (*) and divide (/) to perform arithmetic operations.
