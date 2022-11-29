@@ -1,6 +1,7 @@
 # javascript-tutorial
 
 <h1>for making a new objects using class we can use ES6 class declaration<h1>
+    <br>
     
 ES6 introduced a new syntax for declaring a class as shown in this example:
 
