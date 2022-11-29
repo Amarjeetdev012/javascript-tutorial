@@ -88,8 +88,12 @@
 // Code language: JavaScript (javascript)
 // It is a good practice to use arrow functions for callbacks and closures because the syntax of arrow functions is cleaner.
 
-// Summary
+//! Summary
 // Use the (...args) => expression; to define an arrow function.
 // Use the (...args) => { statements } to define an arrow function that has multiple statements.
 // An arrow function doesn’t have its binding to this or super.
 // An arrow function doesn’t have arguments object, new.target keyword, and prototype property.
+
+//! Summary
+// An arrow function doesn’t have its own this value. Instead, it uses the this value of the enclosing lexical scope. An arrow function also doesn’t have the arguments object.
+// Avoid using the arrow function for event handlers, object methods, prototype methods, and functions that use the arguments object.
