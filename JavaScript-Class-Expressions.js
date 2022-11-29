@@ -87,4 +87,3 @@
 // ES6 provides you with an alternative way to defining a new class using a class expression.
 // Class expressions can be named or unnamed.
 // The class expression can be used to create a singleton object.
-
