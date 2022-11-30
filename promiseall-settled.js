@@ -22,5 +22,5 @@
 // The promise2 resolves to a value at t2.
 // The Promise.allSettled() method resolves to a array containing objects that describe the statuses and outcomes of the promise1 and promise2.
 
-// Summary
+//! Summary
 // The Promise.allSettled() method accepts an iterable of promises and returns a new promise that resolves when every input promise has settled with an array of objects that describes the result of each promise in the iterable object.
