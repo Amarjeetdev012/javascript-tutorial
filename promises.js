@@ -14,14 +14,14 @@
 // The rejected state indicates that the asynchronous operation failed.
 
 
-// Creating a promise
+//* Creating a promise
 // To create a promise object, you use the Promise() constructor:
 
 // const promise = new Promise((resolve, reject) => {
-//   // contain an operation
-//   // ...
+//    contain an operation
+//    ...
 
-//   // return the state
+//    return the state
 //   if (success) {
 //     resolve(value);
 //   } else {
@@ -47,3 +47,9 @@
 
 
 // Note that you will rarely create promise objects in practice. Instead, you will consume promises provided by libraries.
+
+//! Summary
+// A promise is an object that encapsulates the result of an asynchronous operation.
+// A promise starts in the pending state and ends in either fulfilled state or rejected state.
+// Use then() method to schedule a callback to be executed when the promise is fulfilled, and catch() method to schedule a callback to be invoked when the promise is rejected.
+// Place the code that you want to execute in the finally() method whether the promise is fulfilled or rejected.
