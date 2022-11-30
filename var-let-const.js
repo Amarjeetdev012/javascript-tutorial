@@ -68,3 +68,28 @@
 // The temporal dead zone starts from the block until the let variable declaration is processed. In other words, it is the location where you cannot access the let variables before they are defined.
 
 // In this tutorial, you have learned about the differences between var and let keywords.
+
+// JavaScript const and Arrays
+// Consider the following example:
+
+// const colors = ['red'];
+// colors.push('green');
+// console.log(colors); // ["red", "green"]
+
+// colors.pop();
+// colors.pop();
+// console.log(colors); // []
+
+// colors = []; // TypeError
+// Code language: JavaScript (javascript)
+// In this example, we declare an array colors that has one element using the const keyword. Then, we can change the array’s elements by adding the green color. However, we cannot reassign the array colors to another array.
+
+// let scores = [75, 80, 95];
+
+// for (let score of scores) {
+// 	console.log(score);
+// }
+
+//! Summary
+// The const keyword creates a read-only reference to a value. The readonly reference cannot be reassigned but the value can be change.
+// The variables declared by the const keyword are blocked-scope and cannot be redeclared.
