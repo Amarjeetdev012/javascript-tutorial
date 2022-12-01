@@ -30,13 +30,13 @@ console.log(square(2)); //4
 console.log(cube(5)); //9
 
 * In closure function are return with its lexical environment
-* 
+
 *function along with a lexical scope are closure
 
 *what is lexical environment :  lexical environment is created whenever is execution context is created
 
 * lexical environment : local memory along with lexical environment of the parent
-* 
+
 * lexical environment : local memory + lexical environment of parent
 
 function outer(){
