@@ -20,6 +20,13 @@
 // }
 
 // say();
+
+// for (let i=0;i<10;i++){
+// let  sum =0
+//     sum +=i
+// }
+// console.log(sum)
+
 // Code language: JavaScript (javascript)
 // In this example, we reference the variable greeting outside the if block that results in an error.
 
