@@ -12,6 +12,7 @@
 
 // let language = 'JavaScript';
 // let s = language.substring(4);
+
 // console.log(s);  // Script
 // Code language: JavaScript (javascript)
 // In this example, The variable language holds a primitive string value. It doesn’t have any method like substring(). However, the above code works perfectly.
