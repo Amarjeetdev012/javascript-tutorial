@@ -99,3 +99,31 @@ let run = 622654;
 const hello = 354644964848;
 
 console.log(test());
+
+
+
+
+function Counter() {
+  let count = 0;
+  return {
+    incrementCounter: function () {
+      count++;
+      console.log(count);
+    },
+    decreaseCounter: function () {
+      count--;
+      console.log(count);
+    },
+  };
+}
+
+let data = new Counter();
+console.log(data);
+data.incrementCounter();
+data.incrementCounter();
+data.incrementCounter();
+data.incrementCounter();
+data.decreaseCounter();
+data.decreaseCounter();
+data.decreaseCounter();
+
