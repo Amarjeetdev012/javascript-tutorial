@@ -18,16 +18,19 @@ In a function, in strict mode, this is undefined.
 In an event, this refers to the element that received the event.
 
 example:==>
+
 var myVar = 100;
     
 function SomeFunction(callback)
 {
-    var myVar = 200;
+   
+   var myVar = 200;
 
     callback();
 };
       
 var obj = {
+
             myVar: 300,
             WhoIsThis : function() {
             
@@ -36,4 +39,5 @@ var obj = {
       };
       
 SomeFunction(obj.WhoIsThis); 
+
 SomeFunction(obj.WhoIsThis.call(obj)); 
