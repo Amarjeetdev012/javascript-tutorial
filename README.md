@@ -30,6 +30,7 @@ function SomeFunction(callback)
 var obj = {
             myVar: 300,
             WhoIsThis : function() {
+            
                 console.log("'this' points to " + this + ", myVar = " + this.myVar);
             }
       };
